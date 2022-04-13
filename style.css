@@ -85,10 +85,20 @@ section {
     font-size: 40px;
 }
 
+.but-img {
+    left: 43%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 35rem;
+    
+}
+
 img {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.562);
-    left: 39.5%;
-    top:150px;
+    
+    top:5rem;
     position: absolute;
     transform: scale(0.4);
 }
@@ -100,9 +110,7 @@ button {
     height: 40px;
     width: 140px;
     position:absolute;
-    left: 45%;
     border: none;
-    transform: translateY(-0%);
     border-radius: 25px;
     font-size: 17px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.404);
@@ -118,15 +126,15 @@ button:hover {
 }
 
 .start {
-    top: 10rem;
+    top: 3rem;
 }
 
 .roll {
-    top: 31rem;
+    top: 23rem;
 }
 
 .hold {
-    top: 35rem;
+    top: 27rem;
 }
 
 
