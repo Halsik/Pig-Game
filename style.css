@@ -118,11 +118,11 @@ button {
 }
 
 button:active {
-    transform: translate(-10%, 5px);
+    transform: scale(10%);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   }
 button:hover {
-    transform: scale(1);
+    transform: scale(0.95);
 }
 
 .start {
